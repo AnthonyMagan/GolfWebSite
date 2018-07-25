@@ -1,0 +1,48 @@
+﻿body
+{
+    background-color:rgb(255,255,210);
+}
+
+.preCommitteeMembers{
+    width: 100%;
+}
+
+.img-WoodenBackGround{
+	position:absolute;
+	top: 240px;
+    left:4%; 
+    z-index: 1;
+}
+
+.Committee-background-img{
+	z-index: 0;
+}
+
+.preCommitteeMembersHeader{
+    position:absolute;
+    top: 255px;
+    left:5%; 
+    font-family: lucida Calligraphy;
+    font-size: 28px;
+    color: silver;
+	z-index:2;
+}
+
+.tbl_preCommitteeMembers{
+    position:absolute;
+    top: 300px;
+    left:5%; 
+	font-family: lucida Calligraphy;
+    font-size: 18px;
+    color: silver;
+	z-index:2;
+}
+
+th{
+    width: 195px;
+	text-align: left;
+}
+
+tr{
+    height: 33px;
+}

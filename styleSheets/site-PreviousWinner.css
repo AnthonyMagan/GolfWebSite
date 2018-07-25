@@ -1,0 +1,49 @@
+﻿body
+{
+    background-color:rgb(255,255,210);
+}
+
+.preWinners{
+    width: 100%;
+    
+}
+
+.img-PictureFrame{
+	position:absolute;
+	top: 240px;
+    left:15%; 
+    z-index: 1;
+}
+
+.PreviousWinner-background-img{
+	z-index:0;
+}
+
+.preWinnersHeader{
+    position:absolute;
+    top: 355px;
+    left:21%; 
+    font-family: lucida Calligraphy;
+    font-size: 28px;
+    color: gold;
+	z-index:2;
+}
+
+.tbl_preWinners{
+    position:absolute;
+    top: 410px;
+    left:21%; 
+	font-family: lucida Calligraphy;
+    font-size:18px;
+    color: gold;
+	z-index:2;
+}
+
+th{
+	width: 176px;
+	text-align: left;
+}
+
+tr{
+    height: 33px;
+}
